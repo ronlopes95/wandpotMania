@@ -15,6 +15,8 @@ https://user-images.githubusercontent.com/103221476/172912986-bfc1e326-4acc-48a9
 
 <p>With that in mind I personally reached out to the community's developers and got my hands on some useful files that aided me in the production of this app alongside intense researching across many alleyways.</p>
 
+<p>Special thanks to <a href="https://forum.nwnarelith.com/memberlist.php?mode=viewprofile&u=5922&sid=e38be56051edd127c2ba716d2da2f229"> Sincra </a> for giving me a XML file with the game file information, which allowed me to convert it to a JSON file in order to feed my form fields.</p>
+
 <h2>Development:</h2>
 <p>The project was made with:</p>
  
