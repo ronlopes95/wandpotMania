@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+p,
+label,
+strong {
+  color: antiquewhite;
+}
+
+/* option {
+  font-family: "Poppins-700", sans-serif;
+} */
+
+main {
+  width: fit-content;
+  margin: 60px auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+input {
+  padding-right: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+select {
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: none;
+  padding: 18px;
+}
+
+header {
+  margin: 100px auto;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+/* #spellList {
+  width: 295px;
+} */
+
+.fields {
+  flex-direction: flow;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .fields {
+    flex-direction: column;
+  }
+}
+
+.radioMenu {
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.applyButtonContainer {
+  display: flex;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  justify-items: center;
+}
+
+.resultsContainer {
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.result {
+  display: flex;
+  gap: 16px;
+}
+
+.flex {
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  gap: 8px;
+}
+
+.radio {
+  all: unset;
+  background-color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  box-shadow: 0 2px 10px black;
+}
+
+.radio:focus {
+  box-shadow: 0 0 0 2px black;
+}
+
+.indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.indicator::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.applyButton {
+  width: 100%;
+  border: none;
+  color: antiquewhite;
+  background-color: rgb(73, 151, 73);
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.applyButton:hover {
+  background-color: #84b486;
+  color: white;
+}
+
+.applyButton:active {
+  background: #282b28;
+  transition-duration: 0.1s;
+}
